@@ -3572,6 +3572,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	display: block;
 	line-height: 22px;
 	padding: 14px 5px;
+	margin-left: 10px;
 	color: #444;
 	font-weight: 700;
 	font-size: 0.8125rem;
@@ -10569,7 +10570,7 @@ body:not(.device-touch) .social-icon {
 .social-icon.si-small {
 	width: 32px;
 	height: 32px;
-	font-size: 0.875rem;
+	font-size: 1.5rem;
 	line-height: 30px !important;
 }
 
@@ -10642,7 +10643,7 @@ body:not(.device-touch) .social-icon i {
 }
 
 .si-facebook:hover,
-.si-colored.si-facebook { background-color: #3B5998 !important; }
+.si-colored.si-facebook { background-color: #bF9456 !important; }
 .si-delicious:hover,
 .si-colored.si-delicious { background-color: #205CC0 !important; }
 .si-paypal:hover,
@@ -10770,7 +10771,7 @@ body:not(.device-touch) .social-icon i {
 .si-xing:hover,
 .si-colored.si-xing { background-color: #126567 !important; }
 .si-instagram:hover,
-.si-colored.si-instagram { background-color: #8A3AB9 !important; }
+.si-colored.si-instagram { background-color: #bF9456 !important; }
 .si-quora:hover,
 .si-colored.si-quora { background-color: #A82400 !important; }
 .si-openid:hover,
@@ -10792,7 +10793,7 @@ body:not(.device-touch) .social-icon i {
 .si-tiktok:hover,
 .si-colored.si-tiktok { background-color: #000 !important; }
 .si-whatsapp:hover,
-.si-colored.si-whatsapp { background-color: #25D366 !important; }
+.si-colored.si-whatsapp { background-color: #bF9456 !important; }
 .si-tripadvisor:hover,
 .si-colored.si-tripadvisor { background-color: #00AF87 !important; }
 .si-gpay:hover,
@@ -14078,7 +14079,6 @@ button.toast-close-button {
 
 #footer .footer-widgets-wrap {
 	position: relative;
-	padding: 80px 0;
 }
 
 #copyrights {
