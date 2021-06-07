@@ -97,11 +97,11 @@
 		<!-- Slider
 		============================================= -->
 		<section id="slider" class="slider-element slider-parallax page-section min-vh-60 min-vh-md-100 include-header">
-			<div class="slider-inner" style="background: url('demos/barber/images/hero/hero.jpg') center center no-repeat; background-size: cover;">
+			<div class="slider-inner" style="background:url(/img/cover.jpg) center center no-repeat; background-size: cover;">
 
 				<div class="vertical-middle">
 					<div class="text-center py-5 py-md-0">
-						<img src="img/logo-blanco.png" alt="Logo" height="200">
+						<img class="img-fluid w-50" src="img/logo-blanco.png" alt="Logo" height="300">
 
 						<!-- Slider Navigation
 						============================================= -->
@@ -141,19 +141,16 @@
 			</div>
 		</section>
 
-		<!-- Content
+		<!-- Nosotros Section
 		============================================= -->
 		<section id="content" style="border-top: 8px solid #bf9456">
 
 			<div class="content-wrap py-0">
-
-				<!-- Nosotros Section
-				============================================= -->
 				<div id="about" class="section m-0 bg-transparent page-section" style="padding: 150px 0">
 					<div class="container clearfix">
 						<div class="row clearfix">
 							<div class="col-md-3 col-6 d-none d-md-block">
-								<img src="demos/barber/images/about/1.jpg" alt="Image" data-animate="backInLeft">
+								<img src="/img/img_izquierda.jpg" alt="Image" data-animate="backInLeft">
 							</div>
 							<div class="col-md-6 col-12 center" style="padding: 0 50px;">
 								<img src="demos/barber/images/icons/cs.svg" alt="Image" height="60" style="margin-bottom: 20px">
@@ -164,12 +161,16 @@
 								<img src="img/logo-negro.png" alt="Image" width="100" data-animate="flip">
 							</div>
 							<div class="col-md-3 col-6 d-none d-md-block">
-								<img src="img/cortando1.jpg" alt="Image" data-animate="backInRight">
+								<img src="/img/img_derecha.jpg" alt="Image" data-animate="backInRight">
 							</div>
 						</div>
 					</div>
 				</div>
+		</section>
 
+		<!-- Nosotros Detallado
+		============================================= -->
+		<section>
 				<!-- Service Page Section
 				============================================= -->
 				<div id="service" class="section page-section bg-transparent p-0 mt-0 clearfix">
@@ -178,8 +179,8 @@
 
 						<!-- Service Image
 						============================================= -->
-						<div class="col-lg-6 center col-padding parallax" style="background-image: url('img/cortando2.jpg');" data-bottom-top="background-position:0px 100px;" data-top-bottom="background-position:0px -300px;">
-							<div class="vertical-middle dark">
+						<div class="col-lg-6 center col-padding parallax img-fondo" data-bottom-top="background-position:0px 100px;" data-top-bottom="background-position:0px -300px;">
+							<div class="vertical-middle dark ">
 								<div class="heading-block border-0 center">
 									<h2 class="nott ls0" style="font-size: 54px; color: var(--gold);" >Nosotros</h2>
 								</div>
@@ -260,7 +261,7 @@
 							<div class="col-md-4 center bottommargin-lg">
 								<div class="feature-box media-box">
 									<div class="fbox-media" style="padding: 0 40px;">
-										<a href="#"><img class="rounded-circle img-thumbnail" src="demos/barber/images/features/shave.jpg" alt="Why choose Us?"><span>Afeitado</span><div class="sale-flash badge badge-warning py-2 px-3 rounded-0">NUESTRA ESPECIALIDAD</div></a>
+										<a href="#"><img class="rounded-circle img-thumbnail" src="/img/afeitado3.jpg" alt="Why choose Us?"><span>Afeitado</span><div class="sale-flash badge badge-warning py-2 px-3 rounded-0">NUESTRA ESPECIALIDAD</div></a>
 									</div>
 									<div class="fbox-content" data-animate="pulse">
 										<h3><span class="ls0 subtitle font-primary">Tu barba en buenas manos.</span></h3>
@@ -275,7 +276,7 @@
 							<div class="col-md-4 center bottommargin-lg">
 								<div class="feature-box media-box">
 									<div class="fbox-media" style="padding: 0 40px;">
-										<a href="#"><img class="rounded-circle img-thumbnail" src="demos/barber/images/features/haircut.jpg" alt="Effective Planning"><span>Corte</span></a>
+										<a href="#"><img class="rounded-circle img-thumbnail" src="/img/corte.jpg" alt="Effective Planning"><span>Corte</span></a>
 									</div>
 									<div class="fbox-content" data-animate="pulse">
 										<h3><span class="ls0 subtitle font-primary">Nos adaptamos a tu estílos</span></h3>
@@ -303,83 +304,88 @@
 
 					</div>
 				</div>
+		</section>
 
-				<!-- Price Page Section - Parallax
-				============================================= -->
-				<div id="price" class="section page-section parallax pb-0 mb-0 dark" style="background-image: url('img/fondo1.jpg'); background-size: cover; height: 600px" data-bottom-top="background-position:0px 0px; background-repeat: no-repeat;" data-top-bottom="background-position:0px -300px;"></div>
+		<!-- Precios
+		============================================= -->
+		<section>
+				<div id="price" class="section page-section parallax pb-0 mb-0 dark img-fondo2" style="background-image: url('img/background_precios.jpg'); background-size: cover; height: 600px" data-bottom-top="background-position:0px 0px; background-repeat: no-repeat;" data-top-bottom="background-position:0px -100px;"></div>
+					<div class="container bottommargin dark clearfix" style="margin-top: -500px">
+						<div class="heading-block bottommargin-lg center clearfix">
+							<img src="demos/barber/images/icons/wallet-white.svg" alt="Image" height="40" style="margin-bottom: 20px">
+							<h2>Precios</h2>
+						</div>
 
-				<div class="container bottommargin dark clearfix" style="margin-top: -500px">
-					<div class="heading-block bottommargin-lg center clearfix">
-						<img src="demos/barber/images/icons/wallet-white.svg" alt="Image" height="40" style="margin-bottom: 20px">
-						<h2>Precios</h2>
+						<!-- Price Items
+						============================================= -->
+						<div class="row dark col-padding clearfix" style="background-color: #121212" data-animate="backInDown">
+							<div class="col-lg-6 price-wrap">
+								<div class="price-header">
+									<div class="price-name">
+										<a href="#" class="color">Corte</a>
+									</div>
+									<div class="price-dots">
+										<span class="separator-dots"></span>
+									</div>
+									<div class="price-price">$400</div>
+								</div>
+								<p class="price-desc"></p>
+							</div>
+
+							<div class="col-lg-6 price-wrap">
+								<div class="price-header">
+									<div class="price-name">
+										<a href="#" class="color">Afeitado</a>
+									</div>
+									<div class="price-dots">
+										<span class="separator-dots"></span>
+									</div>
+									<div class="price-price">$150</div>
+								</div>
+								<p class="price-desc"></p>
+							</div>
+
+							<div class="w-100 clear"></div>
+
+							<div class="col-lg-6 price-wrap">
+								<div class="price-header">
+									<div class="price-name">
+										<a href="#" class="color">Afeitado Clásico</a>
+									</div>
+									<div class="price-dots">
+										<span class="separator-dots"></span>
+									</div>
+									<div class="price-price">$200</div>
+								</div>
+								<p class="price-desc"></p>
+							</div>
+
+							<div class="col-lg-6 price-wrap">
+								<div class="price-header">
+									<div class="price-name">
+										<a href="#" class="color"></a>
+									</div>
+									<div class="price-dots">
+										<span class="separator-dots"></span>
+									</div>
+									<div class="price-price">$</div>
+								</div>
+								<p class="price-desc"></p>
+							</div>
+						</div>
 					</div>
-
-					<!-- Price Items
-					============================================= -->
-					<div class="row dark col-padding clearfix" style="background-color: #121212" data-animate="backInDown">
-						<div class="col-lg-6 price-wrap">
-							<div class="price-header">
-								<div class="price-name">
-									<a href="#" class="color">Corte</a>
-								</div>
-								<div class="price-dots">
-									<span class="separator-dots"></span>
-								</div>
-								<div class="price-price">$400</div>
-							</div>
-							<p class="price-desc"></p>
-						</div>
-
-						<div class="col-lg-6 price-wrap">
-							<div class="price-header">
-								<div class="price-name">
-									<a href="#" class="color">Afeitado</a>
-								</div>
-								<div class="price-dots">
-									<span class="separator-dots"></span>
-								</div>
-								<div class="price-price">$150</div>
-							</div>
-							<p class="price-desc"></p>
-						</div>
-
-						<div class="w-100 clear"></div>
-
-						<div class="col-lg-6 price-wrap">
-							<div class="price-header">
-								<div class="price-name">
-									<a href="#" class="color">Afeitado Clásico</a>
-								</div>
-								<div class="price-dots">
-									<span class="separator-dots"></span>
-								</div>
-								<div class="price-price">$200</div>
-							</div>
-							<p class="price-desc"></p>
-						</div>
-
-						<div class="col-lg-6 price-wrap">
-							<div class="price-header">
-								<div class="price-name">
-									<a href="#" class="color"></a>
-								</div>
-								<div class="price-dots">
-									<span class="separator-dots"></span>
-								</div>
-								<div class="price-price">$</div>
-							</div>
-							<p class="price-desc"></p>
-						</div>
-					</div>
+		
 				</div>
+		</section>
+
+
+		<!-- App
+		============================================= -->
+		<section>
+				<div style="border: 8px solid #bf9456"></div>
 
 				
-
-
-				<!--	APP 
-				===========================================-->
-				<div id="app" class="section page-section parallax pb-0 dark clearfix" style="background-image: url('img/BG-Mosaico.jpg'); background-size: cover;" data-bottom-top="background-position:0px 0px; margin-bottom: 0px;" data-top-bottom="background-position:0px -50px;">
-
+				<div id="app" class="section page-section parallax pb-0 dark clearfix " style="background-image: url(/img/BG-Mosaico.jpg); background-repeat: no-repeat; background-size: cover;" data-bottom-top="background-position:0px 0px; margin-bottom: 0px;" data-top-bottom="background-position:0px -50px;">
 					<div class="row">
 						<!-- DESCARGÄ NUESTRA APP
 						============================================= -->
@@ -414,8 +420,10 @@
 
 					</div>
 				</div>
+		</section>
 
-		<!-- Content
+
+		<!-- Team
 		============================================= -->
 		<section id="content" style="border-top: 8px solid #bf9456">
 			<div class="content-wrap py-0">
@@ -512,7 +520,7 @@
 				<div id="contact" class="row align-items-stretch page-section pt-0 clearfix">
 
 					<div class="col-lg-6 col-padding"  data-animate="pulse">
-						<img src="img/local.jpg" alt="">
+						<img src="img/local_1.jpg" alt="local">
 					</div>
 
 					<div class="col-lg-6 col-padding" style="background-color: #F9F9F9;">
@@ -599,7 +607,7 @@
 				============================================= -->
 				<div class="footer-widgets-wrap center clearfix">
 
-					<img src="img/logo-blanco.png" width="500" alt="Image">
+					<img class="img-fluid w-50" src="img/logo-blanco.png" alt="Image">
 
 					<div class="topmargin-lg clearfix">
 						<a href="https://www.facebook.com/La-Barber%C3%ADa-De-Crego-414478868996940" class="social-icon si-small si-rounded si-borderless inline-block si-facebook" target="_blank">
@@ -617,7 +625,7 @@
 						
 					</div>
 
-					<div class="text-uppercase ls3" style="color: #333; margin-top: 10px">Diseño Web By <img src="/img/pampa_blanco.png" alt="" style="max-width: 8%; padding-bottom: 5px;" data-animate="flipInY"> Todos los derechos reservados. &copy; 2021.</div>
+					<div class="text-uppercase ls3" style="color: #333; margin-top: 10px">Diseño Web By <img class="img-fluid w-25" src="/img/pampa_blanco.png" alt="" style="max-width: 8%; padding-bottom: 5px;" data-animate="flipInY"> Todos los derechos reservados. &copy; 2021.</div>
 
 				</div>
 
