@@ -23,5 +23,7 @@ background-size: contain;
 
   @media only screen and (max-device-width: 900px) {
 	.img-fondo2 {
-  background-size: contain;
+        background-size: contain;
+    }
   }
+}
