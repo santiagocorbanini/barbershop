@@ -63,7 +63,7 @@ nav.custom-hero-nav { display: none; }
 	height: 4rem !important;
 }
 
-.feature-box h3 span.subtitle { color: #BBB; }
+.feature-box h3 span.subtitle { color: #333; }
 
 .fbox-media a span {
 	position: absolute;

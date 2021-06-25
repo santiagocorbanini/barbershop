@@ -5191,8 +5191,8 @@ a.badge-info:focus, a.badge-info.focus {
 }
 
 .badge-warning {
-  color: #212529;
-  background-color: #ffc107;
+  color: #fafafa;
+  background-color: #bF9456;
 }
 
 a.badge-warning:hover, a.badge-warning:focus {
