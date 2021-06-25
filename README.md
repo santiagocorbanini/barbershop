@@ -15,7 +15,7 @@ A la vez que se navega hacia abajo aparece un nuevo navbar que se mantiene en to
 
 ♦ "Nosotros" en la cual se muestran imágenes del proceso de un corte y se detalla el la visión del emprendimiento. Seguido se detallan las características, habilidades e información en general a través de íconos para su facil reconocimiento con el texto.
 
-♦ "" muestra de una manera sencilla los servicios que se ofrecen.
+♦ "Nosotros" muestra de una manera sencilla los servicios que se ofrecen.
 
 ♦ "Precios" detalla los precios de los servicios anteriormente mencionados.
 
@@ -50,6 +50,5 @@ Se tomaron fotografías específicas en el local para las distintas secciónes
 
 💡 Creación del Proyecto 💡
 
-🧑🏽 Santiago Corbanini
-
+🧑🏻 Santiago Corbanini
 🧑 Franco Vanney
