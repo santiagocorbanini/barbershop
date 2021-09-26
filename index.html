@@ -554,7 +554,7 @@
 
 					<div class="col-lg-6 col-padding" style="background-color: #F9F9F9;">
 						<div>
-							<h3 class="text-uppercase">Ubicación</h3>
+							<h3 class="text-uppercase"><i style="color: #bF9456; font-size: 1.7em;" class="icon-map-marker1"></i> Ubicación</h3>
 							<div class="row topmargin-sm clearfix" style="font-size: 16px; line-height: 1.7;">
 								<div class="col-lg-6">
 									<address style="line-height: 1.7;">
@@ -583,30 +583,38 @@
 
 									<div class="row">
 										<div class="col-md-6 form-group">
-											<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control border-form-control required" placeholder="Nombre" />
+											<input type="text" id="contactform-name" name="contactform-name" value="" class="sm-form-control border-form-control required" placeholder="Nombre" />
 										</div>
 										<div class="col-md-6 form-group">
-											<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control border-form-control" placeholder="Email" />
+											<input type="email" id="contactform-email" name="contactform-email" value="" class="required email sm-form-control border-form-control" placeholder="Email" />
 										</div>
 
 										<div class="w-100"></div>
 
 										<div class="col-md-4 form-group">
-											<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control border-form-control" placeholder="Tel" />
+											<input type="text" id="contactform-phone" name="contactform-phone" value="" class="sm-form-control border-form-control" placeholder="Tel" />
 										</div>
 
 										<div class="col-md-8 form-group">
-											<input type="text" id="template-contactform-subject" name="subject" value="" class="required sm-form-control border-form-control" placeholder="Asunto" />
+											<input type="text" id="contactform-subject" name="subject" value="" class="required sm-form-control border-form-control" placeholder="Asunto" />
 										</div>
 
 										<div class="w-100"></div>
 
 										<div class="col-12 form-group">
-											<textarea class="required sm-form-control border-form-control" id="template-contactform-message" name="template-contactform-message" rows="7" cols="30" placeholder="Tu Mensaje"></textarea>
+											<textarea class="required sm-form-control border-form-control" id="contactform-message" name="template-contactform-message" rows="7" cols="30" placeholder="Tu Mensaje"></textarea>
 										</div>
 
 										<div class="col-12 form-group">
-											<button class="button button-large button-color ml-0 topmargin-sm" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Enviar</button>
+											<button 
+                                                class="button button-large button-color ml-0 topmargin-sm" 
+                                                type="submit" 
+                                                id="template-contactform-submit" 
+                                                name="template-contactform-submit" 
+                                                value="submit"
+                                                onclick="gotowhatsapp()"
+                                                >
+                                                Enviar</button>
 										</div>
 
 										<div class="col-12 form-group d-none">
@@ -672,6 +680,26 @@
 	============================================= -->
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.min.js"></script>
+    <script>
+        function gotowhatsapp() {
+            
+            var name = document.getElementById("contactform-name").value;
+            var email = document.getElementById("contactform-email").value;
+            var phone = document.getElementById("contactform-phone").value;
+            var subject = document.getElementById("contactform-subject").value;
+            var message = document.getElementById("contactform-message").value;
+        
+            var url = "https://api.whatsapp.com/send?phone=542364595749&text=" 
+            + "Nombre: " + name + "%0a"
+            + "Telefono: " + phone + "%0a"
+            + "Email: " + email  + "%0a"
+            + "Asunto: " + subject  + "%0a"
+            + "Mensaje: " + message; 
+        
+            window.open(url, '_blank').focus();
+        }
+        </script>
+
 
 	<!-- Footer Scripts
 	============================================= -->
